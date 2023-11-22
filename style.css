@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+}
+
+/* Hero */
+.hero {
+	background: linear-gradient(to right top, #000, #3e065f);
+	min-height: 80vh;
+	position: relative;
+}
+
+/* Header */
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: transparent;
+	padding: 1rem 5rem;
+}
+
+.header__logo {
+	height: 8rem;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation__search {
+	display: flex;
+	align-items: center;
+	margin-right: 2rem;
+	border: 1px solid #fff;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+}
+
+.navigation__search-icon {
+	color: #fff;
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-right: 2rem;
+}
+
+.navigation__search-input {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.navigation__search-input::placeholder {
+	font-size: 1.8rem;
+	color: inherit;
+}
+
+.navigation__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.8rem;
+}
+
+.navigation__list-item {
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.navigation__list-item:first-child {
+	margin-right: 2rem;
+	background-color: #fff;
+	color: #000;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+/* tests */
+.hero__movie-preview-container {
+	width: 65rem;
+	color: #fff;
+	position: absolute;
+	bottom: 5rem;
+	left: 5rem;
+	border-radius: 1rem;
+	padding: 2rem 2rem;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero__movie-title {
+	font-size: 4.8rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 3rem;
+}
+
+.hero__movie {
+	display: flex;
+	align-items: center;
+}
+
+.hero__movie-poster {
+	margin-right: 3rem;
+	border-radius: 1rem;
+	width: 15rem;
+}
+
+.hero__movie-description-container {
+	align-self: flex-start;
+}
+
+.hero__movie-year {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+
+.hero__movie-description {
+	font-size: 1.4rem;
+	line-height: 1.6;
+	margin-bottom: 2rem;
+}
+
+.btn-watch-now {
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	background-color: #8e05c2;
+	cursor: pointer;
+}
+
+.btn-play-icon {
+	width: 2.4rem;
+	height: 2.4rem;
+	color: #fff;
+	margin-right: 1rem;
+}
+
+.btn-watch-now span {
+	font-size: 1.8rem;
+	color: #fff;
+	font-weight: 700;
+}
