@@ -3,12 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>143Movies | Watch movies for free</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="style.css" />
-		<title>143Movies | Watch movies for free</title>
+		<!-- JS -->
+		<script defer src="./script.js"></script>
 	</head>
 	<body>
 		<main>
+			<!-- Hero section -->
 			<section class="hero">
 				<!-- Header -->
 				<header class="header">
@@ -21,6 +24,37 @@
 					</a>
 					<!-- Navigation -->
 					<nav class="navigation">
+						<ul class="navigation__list">
+							<li class="navigation__list-item">Register</li>
+							<li class="navigation__list-item">Sign in</li>
+						</ul>
+					</nav>
+				</header>
+				<div class="hero-movie">
+					<div class="hero__movie-preview-container">
+						<!-- <h1 class="hero__movie-title">lorem8</h1>
+						<div class="hero__movie">
+							<img
+								src="./peter-forster-ouVAsbiwzlo-unsplash.jpg"
+								alt=""
+								class="hero__movie-poster"
+							/>
+							<div class="hero__movie-description-container">
+								<p class="hero__movie-year">2010</p>
+								<p class="hero__movie-description">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Perspiciatis aperiam vel optio voluptatibus, error quibusdam
+									ipsam. Voluptas, ratione! Asperiores, quod?
+								</p>
+								<button class="btn btn-watch-now">
+									<ion-icon name="play" class="btn-play-icon"></ion-icon>
+									<span>Watch Now</span>
+								</button>
+							</div> 
+						</div> -->
+						<p class="overlay">Search a movie...</p>
+					</div>
+					<div class="search-container">
 						<div class="navigation__search">
 							<ion-icon
 								name="search"
@@ -29,36 +63,29 @@
 							<input
 								type="text"
 								class="navigation__search-input"
-								placeholder="Find movies"
+								placeholder="Search movies"
 							/>
 						</div>
-						<ul class="navigation__list">
-							<li class="navigation__list-item">Register</li>
-							<li class="navigation__list-item">Sign in</li>
-						</ul>
-					</nav>
-				</header>
-				<div class="hero__movie-preview-container">
-					<h1 class="hero__movie-title">lorem8</h1>
-					<div class="hero__movie">
+						<button class="btn search">Search</button>
+					</div>
+				</div>
+			</section>
+			<!-- List of movies section -->
+			<section class="movies">
+				<h2 class="heading-secondary">Watch movies now!</h2>
+				<div class="movies__container">
+					<!-- <div class="movies__container-item">
 						<img
 							src="./peter-forster-ouVAsbiwzlo-unsplash.jpg"
 							alt=""
-							class="hero__movie-poster"
+							class="movie-poster"
 						/>
-						<div class="hero__movie-description-container">
-							<p class="hero__movie-year">2010</p>
-							<p class="hero__movie-description">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Perspiciatis aperiam vel optio voluptatibus, error quibusdam
-								ipsam. Voluptas, ratione! Asperiores, quod?
-							</p>
-							<button class="btn-watch-now">
-								<ion-icon name="play" class="btn-play-icon"></ion-icon>
-								<span>Watch Now</span>
-							</button>
+						<div class="movies__container-item-info">
+							<h3 class="movie-title">What is thizzz</h3>
+							<p class="movie-year">2010</p>
+							<p class="movie-type">Type: Movie</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 		</main>
